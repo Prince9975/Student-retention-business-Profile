@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Retention System</title>
+
+    <meta
+        name="description"
+        content="Student Retention Tracking and Reporting System for Higher Education Institutions."
+    >
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7f9;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0b3d5c;
+            color: white;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: #eaf3f8;
+            padding: 80px 8%;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            color: #0b3d5c;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 760px;
+            margin: auto;
+            font-size: 18px;
+            color: #444;
+        }
+
+        .hero a {
+            display: inline-block;
+            margin-top: 30px;
+            background: #0b3d5c;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 60px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #0b3d5c;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #0b3d5c;
+            margin-bottom: 10px;
+        }
+
+        .workflow {
+            background: white;
+        }
+
+        .workflow-content {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        .flow {
+            margin-top: 30px;
+            padding: 25px;
+            background: #f4f7f9;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #0b3d5c;
+        }
+
+        .contact {
+            text-align: center;
+            background: #eaf3f8;
+        }
+
+        .contact p {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background: #0b3d5c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                justify-content: center;
+                text-align: center;
+            }
+
+            nav {
+                width: 100%;
+                margin-top: 15px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 10px;
+            }
+
+            .hero h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Student Retention System</h1>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#workflow">How It Works</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<section class="hero">
+
+    <h2>Student Retention Tracking & Reporting System</h2>
+
+    <p>
+        A technology-based solution designed to help higher education
+        institutions identify non-returning students, manage follow-up
+        communication, understand student concerns, and support student
+        retention.
+    </p>
+
+    <a href="#about">Learn More</a>
+
+</section>
+
+
+<section id="about">
+
+    <h2>About the System</h2>
+
+    <div class="about">
+
+        <p>
+            The Student Retention Tracking and Reporting System is a
+            desktop-based research prototype designed for higher education
+            institutions.
+        </p>
+
+        <br>
+
+        <p>
+            The system identifies students who have not completed registration
+            after an academic registration deadline and creates retention cases
+            that Student Affairs staff can monitor and manage.
+        </p>
+
+        <br>
+
+        <p>
+            It supports communication through channels such as Email,
+            WhatsApp and SMS, while conversational artificial intelligence
+            assists with processing student responses and identifying cases
+            that may require human intervention.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section id="features">
+
+    <h2>System Features</h2>
+
+    <div class="features">
+
+        <div class="card">
+            <h3>Student Monitoring</h3>
+            <p>
+                Tracks student registration information and identifies
+                eligible non-returning students after registration deadlines.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Retention Cases</h3>
+            <p>
+                Automatically creates and manages retention cases for
+                students requiring follow-up.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Multi-Channel Communication</h3>
+            <p>
+                Supports student follow-up through Email, WhatsApp and SMS.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>AI-Assisted Responses</h3>
+            <p>
+                Uses conversational AI to help understand student responses
+                and support appropriate follow-up.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Staff Escalation</h3>
+            <p>
+                Cases requiring human support can be escalated to Student
+                Affairs staff for further attention.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Reports & Monitoring</h3>
+            <p>
+                Provides dashboards, communication history and reports to
+                support retention monitoring and decision-making.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="workflow" class="workflow">
+
+    <h2>How It Works</h2>
+
+    <div class="workflow-content">
+
+        <p>
+            The system combines registration information, automated
+            communication and staff intervention to support the student
+            retention process.
+        </p>
+
+        <div class="flow">
+            Registration Deadline
+            →
+            Non-Returning Student Detection
+            →
+            Retention Case
+            →
+            Student Follow-Up
+            →
+            Student Response
+            →
+            AI Processing
+            →
+            Staff Support
+            →
+            Resolution
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+    <h2>Contact</h2>
+
+    <p><strong>Student Retention System</strong></p>
+
+    <p>Higher Education Technology Research Project</p>
+
+    <p>Country: Zambia</p>
+
+    <p>
+        <strong>Phone / WhatsApp:</strong>
+        <a href="https://wa.me/260779388646">
+            +260 779388646
+        </a>
+    </p>
+
+    <p>
+        For information regarding this project, please contact the
+        project administrator.
+    </p>
+
+</section>
+
+
+<footer>
+
+    <p>
+        &copy; 2026 Student Retention System.
+        All rights reserved.
+    </p>
+
+    <p>
+        Research and educational prototype.
+    </p>
+
+</footer>
+
+</body>
+</html>
